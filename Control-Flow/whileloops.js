@@ -7,3 +7,22 @@ while (i < numbers.length) {
 }
 console.log("The loop was executed " + i + " times");
 console.log(sum);
+
+// Creating an Object
+//1. Initializing an object literal with curly brackets
+const objectLiteral = {};
+
+//2. Initialzing an object constructor with new Object
+const objectConstructor = new Object();
+
+//example
+
+const gimli = {
+  name: "Gimli",
+  race: "dwarf",
+  weapon: "axe",
+  greet: function () {
+    return `Hi, my name is ${this.name}. I am a ${this.race} and I use ${this.weapon} as my weapon`;
+  },
+};
+console.log(gimli.greet());
