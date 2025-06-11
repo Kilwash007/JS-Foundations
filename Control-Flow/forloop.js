@@ -1,3 +1,5 @@
+//Loops are block of codes that are executed multiple tmes based on a certain condition
+// for (initialization; condition; increment/decrement) {}
 var i = 0;
 for (; i < 5; i++) {
   console.log(i);
@@ -49,3 +51,14 @@ days.pop();
 console.log(days);
 days.shift();
 console.log(days);
+
+function loopMeIn() {
+  console.log("Before the loop");
+  for (i = 0; i < 7; i++) {
+    if (i % 2 === 0) {
+      console.log(i);
+    }
+  }
+  console.log("After the loop");
+}
+loopMeIn();

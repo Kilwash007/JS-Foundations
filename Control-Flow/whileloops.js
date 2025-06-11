@@ -26,3 +26,5 @@ const gimli = {
   },
 };
 console.log(gimli.greet());
+
+// Create a function printEvenInrange(num1, num2) that takes a number num1 and num2 and prints even numbers FROM num1 to num2
